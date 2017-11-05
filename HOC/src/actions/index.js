@@ -1,6 +1,6 @@
 import {
   CHANGE_AUTH
-} from './index';
+} from './types';
 
 export function authenticate(isLoggedIn) {
   return {
