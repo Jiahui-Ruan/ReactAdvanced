@@ -14,11 +14,9 @@ class UserList extends Component {
           {user.name}
         </h4>
         <p className="card-text">
-          Cheese Factory
+          {user.company.name}
         </p>
-        <a className="btn btn-primary">
-          Email
-        </a>
+        <a className="btn btn-primary" href={user.website}>Website</a>
       </div>
     )
   }
