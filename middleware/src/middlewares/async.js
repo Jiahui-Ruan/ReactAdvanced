@@ -6,7 +6,7 @@ export default function({ dispatch }) {
 
     action.payload
       .then(response => {
-        dispatch({ ...action, payload: response.data })
+        dispatch({ ...action, payload: response })
       })
   }
 }
